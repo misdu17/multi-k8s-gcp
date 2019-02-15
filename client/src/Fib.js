@@ -3,7 +3,7 @@ import axios from 'axios';
 
 class Fib extends Component {
   state = {
-    seenIndexes: [],
+    seenIndexes: ["5"],
     values: {},
     index: ''
   };
